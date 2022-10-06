@@ -1,2 +1,2 @@
-# mks-mfc-arduino
-An Arduino based control unit for MKS mass flow controllers
+# MFC Arduino Controller
+An Arduino based control unit for MKS mass flow controllers.
