@@ -92,9 +92,9 @@ void setup() {
   lcd.setCursor(0, 1); lcd.print("v1.0");
   lcd.setCursor(5, 1); lcd.print("r");
   lcd.setCursor(6, 1); lcd.print(formatFloat(mfc_range, 3, 0));
-  lcd.setCursor(9, 1); lcd.print("f");
-  lcd.setCursor(10, 1); lcd.print(formatFloat(corr_factor, 3, 2));
-  delay(1000);
+  lcd.setCursor(10, 1); lcd.print("f");
+  lcd.setCursor(11, 1); lcd.print(formatFloat(corr_factor, 3, 2));
+  delay(2000);
   // render static objects
   lcd.clear();
   lcd.setCursor(7, 0); lcd.print("sccm");
