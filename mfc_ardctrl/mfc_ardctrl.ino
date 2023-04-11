@@ -45,7 +45,7 @@ enum class Symbol : int {
 int backlight_timer = 0;
 int timeout = 150;
 bool backlight_on = true;
-int lcd_brightness = 255, lcd_contrast = 255;
+int lcd_brightness = 0, lcd_contrast = 255;
 
 void switchBacklight(bool state);
 bool buttonPressed();
